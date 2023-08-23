@@ -1,0 +1,148 @@
+.container-all-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-bottom: 150px;
+}
+
+.rate-title {
+    border-bottom: 1.9px solid #002244;
+    margin-bottom: 40px;
+    width: 800px;
+}
+.top-rate {
+    font-family: 'Dangrek', cursive;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+    color: #452c63;
+    margin-bottom: 17px;
+    margin-left: 10px;
+}
+
+.container {
+    width: 270px;
+    cursor: pointer;
+    border: 1px solid #720e9e;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.09);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 47px;
+    border-bottom-left-radius: 5px;
+
+    position: relative;
+
+    transition: transform 0.14s, background-color 0.15s, box-shadow 0.15s;
+}
+.container:hover {
+    transform: scale(1.03);
+    background-color: #F0F8FF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.discount-tag {
+    position: absolute;
+    top: 10px;
+    right: 0;
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #ff033eda;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .15);
+    padding: 7px 10px 7px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.subject {
+    width: 100%;
+    margin-bottom: 18px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #720e9e;
+
+    z-index: -1;
+}
+
+.container span {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    
+}
+.star {
+    padding-left: 15px;
+}
+
+.star i{
+    margin-top: 18px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+        /* sell section */
+
+.sell-section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.buy-button {
+    border: 1px solid #01987f;
+    border-radius: 2px;
+    font-size: 17px;
+    padding: 8px 15px;
+    background-color: #01987f;
+    cursor: pointer;
+
+    transition: all .15s;
+}
+
+.buy-button:hover {
+    background-color: white;
+    color: #01987f;
+    border-radius: 2px;
+    border: 1px solid #01987f;
+}
+
+.before-discount-price, .after-discount-price{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.before-discount-price {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: red;
+}
+
+                    /* arrow up */
+
+.arrow-up-button {
+    position: fixed;
+    right: 0;
+    top: 730px;
+
+    z-index: 2;
+    transition: all 0.15s;
+}
+
+.arrow-up-button:hover {
+    opacity: 0.7;
+}
+
+#fa-solid {
+    color: yellowgreen;
+    font-size: 27px;
+    background-color: #000000b3;
+
+    padding: 10px 15px;
+    border-radius: 35px;
+    border: none;
+    margin-right: 10px;
+}

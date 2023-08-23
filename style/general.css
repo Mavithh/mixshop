@@ -1,0 +1,15 @@
+body {
+    padding-top: 115px;
+    padding-left: 190px;
+    padding-right: 33px;
+    height: 12000px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+}

@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/jpg" href="images/favicon.jpg">
+    <title>Online Shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Chenla&family=Cinzel:wght@400;500;700&family=Dangrek&family=Fasthand&family=Kdam+Thmor+Pro&family=Konkhmer+Sleokchher&family=Lobster&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/all-product.css">
+    <link rel="stylesheet" href="style/first-main.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/banner-slide.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://kit.fontawesome.com/32c713b4e2.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+
+<body id="body" style="height: 4000px;">
+    
+    <nav class="header">
+        
+        <div class="left-section">
+            <img src="images/shoplogo.jpg" alt="" class="shop-logo">
+        </div>
+
+        <div class="middle-section">
+            <input type="text" placeholder="ស្វែងរក&#8230;" class="input-search">
+            <button class="search-icon-botton">
+                <img class="search-icon" src="images/search-icon.png" alt="" >
+            </button>
+        </div>
+
+        <div class="right-section">
+            <a href="sign-up.html"><button class="sign-up-bottom">SIGN UP</button></a>
+        </div>
+    </nav>
+
+    <div class="arrow-up-button">
+        <a href=""><button id="fa-solid"><i class="fa-solid fa-arrow-up" ></i></button></a> 
+    </div>
+
+    <aside class="side-bar">
+        <ul class="ul">
+            <li>
+                <a  href="page1.html" class="aside">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="icon-title">ទំព័រដើម</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="kitchen_page.html" class="aside">
+                    <i class="fa-solid fa-kitchen-set"></i>
+                    <span class="icon-title">ផ្ទះបាយ</span>
+                </a>
+            </li>  
+
+            <li class="container-side-bar-menu">
+                <a href="" class="aside" contenteditable="side-bar-menu">
+                    <i class="fa-solid fa-shop"></i>
+                    <span class="icon-title">របស់ប្រើប្រាស់</span>
+                </a>
+                <ul class="dropdow-menu">
+                    <li>
+                        <a href="sport_page.html" class="aside-dropdown">សម្ភារៈកីឡា</a>
+                    </li>
+
+                    <li>
+                        <a href="phone-page.html" class="aside-dropdown">ទូរស័ព្ទ</a>
+                    </li>
+
+                    <li>
+                        <a href="computer-page.html" class="aside-dropdown" id="aside-dropdown">កុំព្យូទ័រ</a>
+                    </li>
+
+                    <li>
+                        <a href="watch-page.html" class="aside-dropdown" id="aside-dropdown">នាឡិកា</a>
+                    </li>
+                    
+                </ul>
+            </li>
+                
+
+            <li>
+                <a href="" class="aside"> 
+                    <i class="fa-regular fa-address-card"></i> 
+                    <span class="icon-title">ទំនាក់ទំនង</span> 
+                </a>
+            </li>
+
+            <li>
+                <a href="" class="aside"> 
+                    <i class="fa-solid fa-user-tie"></i>
+                    <span class="icon-title">អំពីខ្ញុំ​</span>
+                </a> 
+            </li>
+            
+        </ul>
+    </aside>
+
+    <section class="silde-animation">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="all-product/kitchen3.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="all-product/kitchen1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="all-product/kitchen3.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="all-product/kitchen2.jpg" alt=""></div>
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+
+    <main class="menu-button">
+        <a href="kitchen_page.html">
+            <button class="equipment-button">សម្ភារៈផ្ទះបាយ</button>
+        </a>
+        
+        <a href="sport_page.html">
+            <button class="equipment-button">សម្ភារៈកីឡា</button>
+        </a>
+
+        <a href="phone-page.html">
+            <button class="equipment-button">ទូរស័ព្ទ</button>
+        </a>
+        
+        <a href="computer-page.html">
+            <button class="equipment-button">កុំព្យូទ័រ</button>
+        </a>
+        
+        <a href="watch-page.html">
+            <button class="equipment-button">នាឡិកា</button>
+        </a>
+        
+    </main>
+
+    <main class="container-all-product">
+
+        <div class="container">
+            <a href="all-product/kitchen-materail/Sink.jpg"><img src="all-product/kitchen-materail/Sink.jpg" alt="" class="subject"></a>
+            <div class="product-name">
+                <span>ឡាបូល</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star-half-stroke" style="color: #ffbe28;"></i>
+                <i class="fa-regular fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;110.00</div>
+                <div class="before-discount-price"><del>&#36;170.00</del></div>
+            </div>
+            <div class="discount-tag">50&#37; OFF</div>
+        </div>
+        
+        <div class="container">
+            <img src="all-product/kitchen-materail/oven-glove.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ស្រោមដៃ oven</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;20.50</div>
+                <div class="before-discount-price"><del>&#36;37.00</del></div>
+            </div>
+            <div class="discount-tag">30&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/chopping-board.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ជ្រុញ</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;10.30</div>
+                <div class="before-discount-price"><del>&#36;15.60</del></div>
+            </div>
+            <div class="discount-tag">45&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/blender.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ម៉ាសុីនក្រឡុក</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;17.00</div>
+                <div class="before-discount-price"><del>&#36;20.50</del></div>
+            </div>
+            <div class="discount-tag">35&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/gas-stove.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ចង្ក្រានហ្គាស</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;27.99</div>
+                <div class="before-discount-price"><del>&#36;35.00</del></div>
+            </div>
+            <div class="discount-tag">37&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/kettle.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ម៉ាសុីនដាំទឹកអគ្គិសនី</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;45.99</div>
+                <div class="before-discount-price"><del>&#36;50.00</del></div>
+            </div>
+            <div class="discount-tag">35&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/cooker.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ឆ្នាំងដាំបាយអគ្គិសនី</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;48.50</div>
+                <div class="before-discount-price"><del>&#36;55.00</del></div>
+            </div>
+            <div class="discount-tag">27&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/gas-stove2.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ចង្ក្រានហ្គាស</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;119.99</div>
+                <div class="before-discount-price"><del>&#36;120.00</del></div>
+            </div>
+            <div class="discount-tag">18&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/oven.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>Oven</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;699.99</div>
+                <div class="before-discount-price"><del>&#36;720.00</del></div>
+            </div>
+            <div class="discount-tag">26&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/pan.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ខ្ទះ</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;19.99</div>
+                <div class="before-discount-price"><del>&#36;25.00</del></div>
+            </div>
+            <div class="discount-tag">53&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/apron.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>Apron</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;8.99</div>
+                <div class="before-discount-price"><del>&#36;10.00</del></div>
+            </div>
+            <div class="discount-tag">35&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/big-knife.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>កាំបិត</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;8.99</div>
+                <div class="before-discount-price"><del>&#36;10.00</del></div>
+            </div>
+            <div class="discount-tag">34&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/bowl.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ចាន</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;4.50</div>
+                <div class="before-discount-price"><del>&#36;5.00</del></div>
+            </div>
+            <div class="discount-tag">34&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/cup.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>កែវ</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;5.00</div>
+                <div class="before-discount-price"><del>&#36;7.50</del></div>
+            </div>
+            <div class="discount-tag">35&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/chopsticks.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ចង្ក្រានហ្គាស</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;7.99</div>
+                <div class="before-discount-price"><del>&#36;10.00</del></div>
+            </div>
+            <div class="discount-tag">67&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/fork.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>សម</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;0.99</div>
+                <div class="before-discount-price"><del>&#36;2.00</del></div>
+            </div>
+            <div class="discount-tag">47&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/tongs.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ដង្កៀប</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;48.50</div>
+                <div class="before-discount-price"><del>&#36;55.00</del></div>
+            </div>
+            <div class="discount-tag">10&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/little-knife.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>កាំបិត</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;11.99</div>
+                <div class="before-discount-price"><del>&#36;12.00</del></div>
+            </div>
+            <div class="discount-tag">15&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/plate.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ចាន</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;5.99</div>
+                <div class="before-discount-price"><del>&#36;7.00</del></div>
+            </div>
+            <div class="discount-tag">13&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/peeler.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>កាំបិតមុខពីរ</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;1.99</div>
+                <div class="before-discount-price"><del>&#36;3.00</del></div>
+            </div>
+            <div class="discount-tag">17&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/egg-whisk.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>Egg Whisk</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;2.00</div>
+                <div class="before-discount-price"><del>&#36;3.00</del></div>
+            </div>
+            <div class="discount-tag">17&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/teapot.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>កំសៀវតែ</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;12.80</div>
+                <div class="before-discount-price"><del>&#36;15.00</del></div>
+            </div>
+            <div class="discount-tag">10&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/pot.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ឆ្នាំង</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;4.50</div>
+                <div class="before-discount-price"><del>&#36;5.00</del></div>
+            </div>
+            <div class="discount-tag">7&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/spon.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ស្លាបព្រា</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;0.80</div>
+                <div class="before-discount-price"><del>&#36;1.00</del></div>
+            </div>
+            <div class="discount-tag">9&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/refrigerator.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>ចាន</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;777.77</div>
+                <div class="before-discount-price"><del>&#36;800.00</del></div>
+            </div>
+            <div class="discount-tag">54&#37; OFF</div>
+        </div>
+
+        <div class="container">
+            <img src="all-product/kitchen-materail/spatula.jpg" alt="" class="subject">
+            <div class="product-name">
+                <span>វេកឆា</span>
+            </div>
+
+            <div class="star">
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+                <i class="fa-solid fa-star" style="color: #ffbe28;"></i>
+            </div>
+
+            <div class="sell-section">
+                <button class="buy-button">BUY</button>
+                <div class="after-discount-price">&#36;1.99</div>
+                <div class="before-discount-price"><del>&#36;3.00</del></div>
+            </div>
+            <div class="discount-tag">38&#37; OFF</div>
+        </div>
+    </main>
+
+    <footer class="wrapper-footer">
+        <section class="container-fotter-info">
+            
+            </div><div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                <div class="footer-title">
+                    <h5>Contact us</h5>
+                    <div class="contact-us">
+                        <p class="location">ផ្ទះលេខ១៦៤​ ក្រុម១៤ ភូមិបុរីកម្មករ សង្កាត់ទឹកថ្លា​ ខណ្ឌសែនសុខ រាជធានីភ្នំពេញ</p>
+                        <p class="email">vittma@gmail.com</p>
+                        <p class="number">070898902</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                <div class="footer-title">
+                    <h5>Products</h5>
+                    <div class="contact-us-info">
+                        <a href="" class="Products"><p class="">ពេញនិយម</p></a>
+                        <a href="" class="Products"><p class="" >ផលិតផលថ្មីៗ</p></a>
+                        <a href="" class="Products"><p class="">បញ្ចុះតម្លៃ</p></a>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                <div class="footer-title">
+                    <h5>Infomation</h5>
+                    <div class="contact-us-info">
+                        <p class="aboutus">About us</p>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                <div class="footer-title">
+                    <h5>Follow us</h5>
+                    <div class="contact-us-info">
+                        <div class="icon-app">
+                            <a href="https://www.facebook.com/profile.php?id=100077659887971&mibextid=LQQJ4d" target="_blank" class="follow"><i class="fa-brands fa-facebook"></i><span>Facebook</span></a>
+                        </div>
+
+                        <div class="icon-app">
+                            <a href="https://t.me/zxxzzzxzz" target="_blank" class="follow"><i class="fa-brands fa-telegram"></i><span>Telegram</span></a>
+                        </div>
+
+                        <div class="icon-app">
+                            <a href="" class="follow"><i class="fa-brands fa-youtube"></i><span>Youtube</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+        <hr>
+
+        <section class="last-section">
+            <p>&#169;Mix Market 2022 | រក្សាសិទ្ធកែប្រែ និង គ្រប់យ៉ាងដោយ Mix Market.</p>
+            <p>បង្កើតដោយ MAVITH</p>
+        </section>
+        
+    </footer>
+
+</body>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+    </script>
+</html>

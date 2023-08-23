@@ -1,0 +1,29 @@
+.amnimation-text {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.discription-anima {
+    color: #49796B;
+    font-size: 27px;
+    font-family: 'Fasthand', cursive;
+
+    white-space: nowrap;
+    padding: 100px 100px;
+    animation: slideleft 19000ms .2s linear infinite;
+}
+
+#shop-anme {
+    color: #0CAFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes slideleft{
+    from{
+        transform: translateX(60%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}

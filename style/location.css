@@ -1,0 +1,12 @@
+.google-map {
+    margin-bottom: 400px;
+}
+
+.map {
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px rgba(144, 26, 195, 0.15), -6px -6px 10px rgba(229, 16, 16, 0.15); 
+}
+
+.map:hover {
+    font-size: large;
+}

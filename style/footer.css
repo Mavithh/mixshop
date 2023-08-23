@@ -1,0 +1,66 @@
+.wrapper-footer {
+    text-align: center;
+    padding: 10px 15px;
+    background: linear-gradient(to right bottom, rgb(190, 190, 194), rgb(204, 212, 87));
+}
+
+.container-fotter-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Chenla', cursive;
+    font-size: 20px;
+}
+
+.footer-title {
+    margin-right: 120px;
+}
+
+.footer-title h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-us {
+    width: 250px;
+}
+
+.follow-us {
+    margin-right: 0;
+}
+
+.contact-us-info .icon-app span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 27px;
+    color: black;
+}
+
+.follow i {
+    font-size: 40px;
+    margin-right: 25px;
+}
+
+.Products {
+    color: black;
+}
+
+.follow:hover ,.Products:hover, .number:hover, .email:hover, .location:hover, .aboutus:hover{
+    color: #6F00FF;
+}
+
+.last-section {
+    font-family: 'Chenla', cursive;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}

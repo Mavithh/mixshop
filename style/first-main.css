@@ -1,0 +1,101 @@
+.first-view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 55px;
+}
+
+.left-section-main {
+    width: 600px;
+
+    display: inline-block;
+    text-align: center;
+}
+
+.wellcome {
+    width: 520px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 80px;
+    color: #00FF40;
+    line-height: 110px;
+
+    margin-bottom: 40px;
+}
+
+.brand-name { 
+    font-family: 'Cinzel', serif;
+    color: #0CAFFF;
+    text-shadow: 1px 4px 10px  rgba(0, 0, 0, 0.2);
+}
+
+.brand-name-definition {
+    text-align: start;
+    color: #49796B;
+}
+
+.span-shop-name {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    color: #0CAFFF;
+}
+
+.definition {
+    font-size: 21px;
+    font-family: 'Chenla', cursive;
+}
+
+.right-section-main {
+    display: block;
+}
+
+.nav-pic {
+    height: 550px;
+    cursor: pointer;
+}
+
+                    /* menu-button */
+
+.menu-button {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.menu-button a {
+    text-decoration: none;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #FEBE10;
+}
+
+.menu-button a button {
+    width: 190px;
+    color: #720e9e;
+    font-size: 20px;
+    font-family: 'Fasthand', cursive;
+    border: 1px solid #720e9e;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px #c5c5c5;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    transition: all 800ms;
+}
+
+.menu-button a button:hover {
+    background: linear-gradient(to right, lightpink, greenyellow);/* background-color: rgb(139, 89, 154); */
+    border: 1.2px solid #49796B;
+    color: rgb(58, 58, 58);
+}
+
+.equipment-button {
+    transition: transform 800ms;
+}
+
+.equipment-button:hover,
+.equipment-button:focus-visible {
+    transform: translateY(-.5rem);
+    transition: transform 100ms;
+}
